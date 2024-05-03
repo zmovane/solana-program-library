@@ -25,7 +25,7 @@ num-derive = "0.4"
 num-traits = "0.2"
 num_enum = "0.7.1"
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
-solana-security-txt = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-security-txt" }
+solana-security-txt = "1.1.1"
 solana-zk-token-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-zk-token-sdk" }
 spl-memo = { path = "../../memo/program", features = [ "no-entrypoint" ] }
 spl-token = { path = "../program", features = ["no-entrypoint"] }
