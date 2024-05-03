@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 arrayref = "0.3.7"
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
-spl-token = { version = "4.0", path = "../../token/program", features=["no-entrypoint"] }
+spl-token = { path = "../../token/program", features=["no-entrypoint"] }
 
 [lib]
 crate-type = ["cdylib", "lib"]

@@ -14,7 +14,7 @@ borsh = ["dep:borsh"]
 borsh = { version = "0.10", optional = true }
 bytemuck = { version = "1.14.0", features = ["derive"] }
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
-spl-discriminator-derive = { version = "0.1.0", path = "./derive" }
+spl-discriminator-derive = { path = "./derive" }
 
 [lib]
 crate-type = ["cdylib", "lib"]

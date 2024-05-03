@@ -20,13 +20,13 @@ solana-rpc-client-api = { git = "https://github.com/zmovane/solana", branch = "f
 solana-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-sdk" }
 # We never want the entrypoint for ATA, but we want the entrypoint for token when
 # testing token
-spl-associated-token-account = { version = "2.0", path = "../../associated-token-account/program", features = ["no-entrypoint"] }
-spl-memo = { version = "4.0.0", path = "../../memo/program", features = ["no-entrypoint"] }
-spl-token = { version = "4.0", path="../program", features = [ "no-entrypoint" ] }
-spl-token-2022 = { version = "1.0", path="../program-2022" }
-spl-token-group-interface = { version = "0.1", path="../../token-group/interface" }
-spl-token-metadata-interface = { version = "0.2", path="../../token-metadata/interface" }
-spl-transfer-hook-interface = { version = "0.4", path="../transfer-hook/interface" }
+spl-associated-token-account = { path = "../../associated-token-account/program", features = ["no-entrypoint"] }
+spl-memo = { path = "../../memo/program", features = ["no-entrypoint"] }
+spl-token = { path="../program", features = [ "no-entrypoint" ] }
+spl-token-2022 = { path="../program-2022" }
+spl-token-group-interface = { path="../../token-group/interface" }
+spl-token-metadata-interface = { path="../../token-metadata/interface" }
+spl-transfer-hook-interface = { path="../transfer-hook/interface" }
 thiserror = "1.0"
 
 [features]

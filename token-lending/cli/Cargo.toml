@@ -16,8 +16,8 @@ solana-client = { git = "https://github.com/zmovane/solana", branch = "fix/deps"
 solana-logger = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-logger" }
 solana-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-sdk" }
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
-spl-token-lending = { version = "0.2", path="../program", features = [ "no-entrypoint" ] }
-spl-token = { version = "4.0", path="../../token/program", features = [ "no-entrypoint" ]  }
+spl-token-lending = { path="../program", features = [ "no-entrypoint" ] }
+spl-token = { path="../../token/program", features = [ "no-entrypoint" ]  }
 
 [[bin]]
 name = "spl-token-lending"

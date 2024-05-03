@@ -22,9 +22,9 @@ serde = "1.0.193"
 serde_derive = "1.0.103"
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
 solana-security-txt = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-security-txt" }
-spl-math = { version = "0.2", path = "../../libraries/math", features = [ "no-entrypoint" ] }
-spl-pod = { version = "0.1", path = "../../libraries/pod", features = ["borsh"] }
-spl-token-2022 = { version = "1.0", path = "../../token/program-2022", features = [ "no-entrypoint" ] }
+spl-math = { path = "../../libraries/math", features = [ "no-entrypoint" ] }
+spl-pod = { path = "../../libraries/pod", features = ["borsh"] }
+spl-token-2022 = { path = "../../token/program-2022", features = [ "no-entrypoint" ] }
 thiserror = "1.0"
 bincode = "1.3.1"
 
@@ -34,7 +34,7 @@ proptest = "1.4"
 solana-program-test = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program-test" }
 solana-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-sdk" }
 solana-vote-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-vote-program" }
-spl-token = { version = "4.0", path = "../../token/program", features = [ "no-entrypoint" ] }
+spl-token = { path = "../../token/program", features = [ "no-entrypoint" ] }
 test-case = "3.3"
 
 [lib]

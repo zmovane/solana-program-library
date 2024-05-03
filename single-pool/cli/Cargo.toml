@@ -27,10 +27,10 @@ solana-remote-wallet = { git = "https://github.com/zmovane/solana", branch = "fi
 solana-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-sdk" }
 solana-transaction-status = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-transaction-status" }
 solana-vote-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-vote-program" }
-spl-token = { version = "4.0", path="../../token/program", features = [ "no-entrypoint" ] }
-spl-token-client = { version = "0.8", path="../../token/client" }
-spl-associated-token-account = { version = "2.0", path="../../associated-token-account/program", features = [ "no-entrypoint" ] }
-spl-single-pool = { version = "1.0.0", path="../program", features = [ "no-entrypoint" ] }
+spl-token = { path="../../token/program", features = [ "no-entrypoint" ] }
+spl-token-client = { path="../../token/client" }
+spl-associated-token-account = { path="../../associated-token-account/program", features = [ "no-entrypoint" ] }
+spl-single-pool = { path="../program", features = [ "no-entrypoint" ] }
 
 [dev-dependencies]
 solana-test-validator = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-test-validator" }

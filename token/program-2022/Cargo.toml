@@ -27,13 +27,13 @@ num_enum = "0.7.1"
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
 solana-security-txt = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-security-txt" }
 solana-zk-token-sdk = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-zk-token-sdk" }
-spl-memo = { version = "4.0.0", path = "../../memo/program", features = [ "no-entrypoint" ] }
-spl-token = { version = "4.0",  path = "../program", features = ["no-entrypoint"] }
-spl-token-group-interface = { version = "0.1.0", path = "../../token-group/interface" }
-spl-token-metadata-interface = { version = "0.2.0", path = "../../token-metadata/interface" }
-spl-transfer-hook-interface = { version = "0.4.0", path = "../transfer-hook/interface" }
-spl-type-length-value = { version = "0.3.0", path = "../../libraries/type-length-value" }
-spl-pod = { version = "0.1.0", path = "../../libraries/pod" }
+spl-memo = { path = "../../memo/program", features = [ "no-entrypoint" ] }
+spl-token = { path = "../program", features = ["no-entrypoint"] }
+spl-token-group-interface = { path = "../../token-group/interface" }
+spl-token-metadata-interface = { path = "../../token-metadata/interface" }
+spl-transfer-hook-interface = { path = "../transfer-hook/interface" }
+spl-type-length-value = { path = "../../libraries/type-length-value" }
+spl-pod = { path = "../../libraries/pod" }
 thiserror = "1.0"
 serde = { version = "1.0.193", optional = true }
 serde_with = { version = "3.4.0", optional = true }

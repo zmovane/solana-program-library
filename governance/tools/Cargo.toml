@@ -16,5 +16,5 @@ num-traits = "0.2"
 serde = "1.0.193"
 serde_derive = "1.0.103"
 solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
-spl-token = { version = "4.0", path = "../../token/program", features = [ "no-entrypoint" ] }
+spl-token = { path = "../../token/program", features = [ "no-entrypoint" ] }
 thiserror = "1.0"
