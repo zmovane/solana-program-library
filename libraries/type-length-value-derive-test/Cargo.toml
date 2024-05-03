@@ -9,6 +9,6 @@ edition = "2021"
 
 [dev-dependencies]
 borsh = "0.10"
-solana-program = "1.16"
+solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
 spl-discriminator = { version = "0.1.0", path = "../discriminator" }
 spl-type-length-value = { version = "0.3.0", path = "../type-length-value", features = ["derive"] }

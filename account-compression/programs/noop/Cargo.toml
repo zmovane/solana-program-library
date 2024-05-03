@@ -16,4 +16,4 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-solana-program = "1.17.6"
+solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }

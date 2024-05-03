@@ -12,7 +12,7 @@ log = []
 sol-log = [ "log" ]
 
 [dependencies]
-solana-program = "1.16"
+solana-program = { git = "https://github.com/zmovane/solana", branch = "fix/deps", package = "solana-program" }
 bytemuck = "1.14"
 thiserror = "1.0.50"
 
